@@ -1,0 +1,94 @@
+.App {
+  border: 1px solid #333;
+  border-radius: 4px;
+  min-width: 800px;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #eee;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+.reset_button {
+  margin-left: 12px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.canvas-container {
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.operation {
+  margin-left: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.custom-button {
+  padding: 12px 16px;
+  background-color: #3786ff;
+  margin: 4px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  user-select: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  opacity: 0.8;
+}
+.custom-button:active {
+  opacity: 0.9;
+}
+
+.disabled {
+  opacity: 0.3 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-slate-1 {
+  border: 1px solid #eee;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.mb-md {
+  margin-bottom: 16px;
+}
+.ma-md {
+  margin: 16px;
+}
+
+.pa-md {
+  padding: 16px;
+}
